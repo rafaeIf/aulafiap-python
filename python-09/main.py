@@ -1,5 +1,5 @@
 idade_input = input('Qual a sua idade?: ')
-idade = int(idade_input)234
+idade = int(idade_input)
 
 if idade > 17:
     print('pode entrar...')
