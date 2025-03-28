@@ -6,7 +6,7 @@ for i in lista:
 for i in range(0, 11, 5): # (onde começa, enquanto for < x, quantos q vai pular)
     print(i)
 
-dicionario = { # key, value (k, v)
+dicionario = { # key, value (k, v) & items 
     'segunda':1,
     'terça':2,
     'quarta':3
