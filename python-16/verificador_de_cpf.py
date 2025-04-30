@@ -22,7 +22,7 @@ if u_num >= 10:
     u_num = 0
 print(u_num)
 
-if int(cpf[9]) == p_num and int(cpf[10]) == u_num:
+if int(cpf[9]) == p_num and int(cpf[10]) == u_num and cpf.count(cpf[0]) != 11:
     print('CPF VERDADEIRO')
 else:
     print('CPF FALSO')
